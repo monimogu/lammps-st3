@@ -4,7 +4,7 @@ Put these files in you _User_ folder in ST3 for file highlighting and auto-compl
 
 All files with extension *.in or *.lammps should show syntax highlighting now.
 
-Currently there are 4 kinds of snippets: 
+Currently there are 3 kinds of snippets: 
 
 1. For initialization (atom type, periodic boundary etc). It contains all settings most commonly used by _me_ you can edit it as per your wish. To use it write **init** followed by <kbd>Tab</kbd> to complete it.
 2. For import velocity command in create model. type **velocity** followed by <kbd>Tab</kbd> to complete it. now use <kbd>Tab</kbd> to cycle through all the fields you want to edit or fill.
