@@ -1,4 +1,4 @@
-#Snippets for quick LAMMPS input file
+# Snippets for quick LAMMPS input file
 
 Put these files in you _User_ folder in ST3 for file highlighting and auto-completion of lammps input files. _User_ folder can be accesed by going to menu: _Prefernces > Browse Packages_. Usually the bottom-most folder will be _User_.
 
