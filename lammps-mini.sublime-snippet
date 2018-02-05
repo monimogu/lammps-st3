@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+min_style      cg
+minimize       1e-14 1e-14 1000 1000
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>mini</tabTrigger> 
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.lammps</scope>
+    <description>LAMMPS VELOCITY settings</description>
+</snippet>
