@@ -1,11 +1,10 @@
 <snippet>
     <content><![CDATA[
 # Processing Initialzation
-
 print          "${1:titiles}" file ${2:file}.out
 variable       ${3:nrun} index 1
+shell          date > ini.time
 label          loop
-shell          date > time.ini
 
 # System Initialization
 units          metal
@@ -15,7 +14,7 @@ atom_style     atomic
 lattice        bcc ${4:3.14} ${5:orient z 1 1 1 orient x -1 -1 2 orient y 1 -1 0}
 
 # Box & atoms
-region         box ${6:block -5 5 -5 5 -5 5}
+region         box block ${6:-5 5 -5 5 -5 5}
 create_box     ${7:2} box
 create_atoms   1 box
 
@@ -31,7 +30,7 @@ thermo_style   custom ${9:step}
 clear
 next           ${3:nrun}
 jump           SELF loop
-shell          date > time.end
+shell          date > end.time
 print          "Program Compeleted!"
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
